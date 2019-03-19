@@ -1,14 +1,11 @@
 {
-  "name": "cz-emoji",
-  "version": "1.1.2",
-  "description": "Commitizen adapter formatting commit messages using emojis.",
-  "author": "Nicolas Gryman <ngryman@gmail.com> (http://ngryman.sh/)",
+  "name": "cz-emoji-mini",
+  "version": "1.0.0-beta0",
+  "description": "Commitizen adapter formatting commit messages using emojis(mini version).",
+  "author": "ZhaoMuwei <zhaomuwei@gmail.com>",
   "license": "MIT",
-  "repository": "ngryman/cz-emoji",
+  "repository": "ZhaoMuwei/cz-emoji-mini",
   "main": "index.js",
-  "engines": {
-    "node": ">=4"
-  },
   "files": [
     "index.js",
     "lib/types.json"
