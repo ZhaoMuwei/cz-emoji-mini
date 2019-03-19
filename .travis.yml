@@ -1,1 +1,9 @@
 language: node_js
+deploy:
+  provider: npm
+  email: "ZhaoMuwei@gmail.com"
+  api_key: "aff9737f-80ee-4c75-835d-2c009964ad3c"
+  skip_cleanup: true
+  tag: next
+  on:
+    tags: true

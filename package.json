@@ -23,5 +23,8 @@
     "pad": "^2.0.1",
     "read-pkg-up": "^2.0.0",
     "wrap-ansi": "^3.0.0"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
 }
