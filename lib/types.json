@@ -1,357 +1,231 @@
 [
   {
     "emoji": "🎨",
-    "code": ":art:",
+    "code": "🎨",
     "description": "Improving structure / format of the code.",
     "name": "style"
   },
   {
     "emoji": "⚡️",
-    "code": ":zap:",
+    "code": "⚡️",
     "description": "Improving performance.",
     "name": "perf"
   },
   {
     "emoji": "🔥",
-    "code": ":fire:",
+    "code": "🔥",
     "description": "Removing code or files.",
     "name": "prune"
   },
   {
     "emoji": "🐛",
-    "code": ":bug:",
+    "code": "🐛",
     "description": "Fixing a bug.",
     "name": "fix"
   },
   {
-    "emoji": "🚑",
-    "code": ":ambulance:",
-    "description": "Critical hotfix.",
-    "name": "quickfix"
-  },
-  {
     "emoji": "✨",
-    "code": ":sparkles:",
+    "code": "✨",
     "description": "Introducing new features.",
     "name": "feature"
   },
   {
     "emoji": "📝",
-    "code": ":memo:",
+    "code": "📝",
     "description": "Writing docs.",
     "name": "docs"
   },
   {
     "emoji": "🚀",
-    "code": ":rocket:",
+    "code": "🚀",
     "description": "Deploying stuff.",
     "name": "deploy"
   },
   {
     "emoji": "💄",
-    "code": ":lipstick:",
+    "code": "💄",
     "description": "Updating the UI and style files.",
     "name": "ui"
   },
   {
     "emoji": "🎉",
-    "code": ":tada:",
+    "code": "🎉",
     "description": "Initial commit.",
     "name": "init"
   },
   {
     "emoji": "✅",
-    "code": ":white_check_mark:",
+    "code": "✅",
     "description": "Adding tests.",
     "name": "test"
   },
   {
     "emoji": "🔒",
-    "code": ":lock:",
+    "code": "🔒",
     "description": "Fixing security issues.",
     "name": "security"
   },
   {
-    "emoji": "🍎",
-    "code": ":apple:",
-    "description": "Fixing something on macOS.",
-    "name": "osx"
-  },
-  {
-    "emoji": "🐧",
-    "code": ":penguin:",
-    "description": "Fixing something on Linux.",
-    "name": "linux"
-  },
-  {
-    "emoji": "🏁",
-    "code": ":checkered_flag:",
-    "description": "Fixing something on Windows.",
-    "name": "windows"
-  },
-  {
-    "emoji": "🤖",
-    "code": ":robot:",
-    "description": "Fixing something on Android.",
-    "name": "android"
-  },
-  {
-    "emoji": "🍏",
-    "code": ":green_apple:",
-    "description": "Fixing something on iOS.",
-    "name": "ios"
-  },
-  {
     "emoji": "🔖",
-    "code": ":bookmark:",
+    "code": "🔖",
     "description": "Releasing / Version tags.",
     "name": "release"
   },
   {
     "emoji": "🚨",
-    "code": ":rotating_light:",
+    "code": "🚨",
     "description": "Removing linter warnings.",
     "name": "lint"
   },
   {
     "emoji": "🚧",
-    "code": ":construction:",
+    "code": "🚧",
     "description": "Work in progress.",
     "name": "wip"
   },
   {
     "emoji": "💚",
-    "code": ":green_heart:",
+    "code": "💚",
     "description": "Fixing CI Build.",
     "name": "fix-ci"
   },
   {
     "emoji": "⬇️",
-    "code": ":arrow_down:",
+    "code": "⬇️",
     "description": "Downgrading dependencies.",
     "name": "downgrade"
   },
   {
     "emoji": "⬆️",
-    "code": ":arrow_up:",
+    "code": "⬆️",
     "description": "Upgrading dependencies.",
     "name": "upgrade"
   },
   {
     "emoji": "📌",
-    "entity": "&#x1F4CC;",
+    "entity": "📌",
     "code": ":pushpin:",
     "description": "Pinning dependencies to specific versions.",
     "name": "pushpin"
   },
   {
     "emoji": "👷",
-    "code": ":construction_worker:",
+    "code": "👷",
     "description": "Adding CI build system.",
     "name": "ci"
   },
   {
     "emoji": "📈",
-    "code": ":chart_with_upwards_trend:",
+    "code": "📈",
     "description": "Adding analytics or tracking code.",
     "name": "analytics"
   },
   {
     "emoji": "♻️",
-    "code": ":recycle:",
+    "code": "♻️",
     "description": "Refactoring code.",
     "name": "refactoring"
   },
   {
-    "emoji": "➖",
-    "code": ":heavy_minus_sign:",
-    "description": "Removing a dependency.",
-    "name": "dep-rm"
-  },
-  {
-    "emoji": "🐳",
-    "code": ":whale:",
-    "description": "Work about Docker.",
-    "name": "docker"
-  },
-  {
     "emoji": "➕",
-    "code": ":heavy_plus_sign:",
+    "code": "➕",
     "description": "Adding a dependency.",
     "name": "dep-add"
   },
   {
+    "emoji": "➖",
+    "code": "➖",
+    "description": "Removing a dependency.",
+    "name": "dep-rm"
+  },
+  {
     "emoji": "🔧",
-    "code": ":wrench:",
+    "code": "🔧",
     "description": "Changing configuration files.",
     "name": "config"
   },
   {
-    "emoji": "🌐",
-    "code": ":globe_with_meridians:",
-    "description": "Internationalization and localization.",
-    "name": "i18n"
-  },
-  {
     "emoji": "✏️",
-    "code": ":pencil2:",
+    "code": "✏️",
     "description": "Fixing typos.",
     "name": "typo"
   },
   {
     "emoji": "💩",
-    "code": ":poop:",
+    "code": "💩",
     "description": "Writing bad code that needs to be improved.",
     "name": "poo"
   },
   {
     "emoji": "⏪",
-    "code": ":rewind:",
+    "code": "⏪",
     "description": "Reverting changes.",
     "name": "revert"
   },
   {
     "emoji": "🔀",
-    "code": ":twisted_rightwards_arrows:",
+    "code": "🔀",
     "description": "Merging branches.",
     "name": "merge"
   },
   {
     "emoji": "📦",
-    "code": ":package:",
+    "code": "📦",
     "description": "Updating compiled files or packages.",
     "name": "dep-up"
   },
   {
     "emoji": "👽",
-    "code": ":alien:",
+    "code": "👽",
     "description": "Updating code due to external API changes.",
     "name": "compat"
   },
   {
-    "emoji": "🚚",
-    "code": ":truck:",
-    "description": "Moving or renaming files.",
-    "name": "mv"
-  },
-  {
     "emoji": "📄",
-    "code": ":page_facing_up:",
+    "code": "📄",
     "description": "Adding or updating license.",
     "name": "license"
   },
   {
     "emoji": "💥",
-    "code": ":boom:",
+    "code": "💥",
     "description": "Introducing breaking changes.",
     "name": "breaking"
   },
   {
     "emoji": "🍱",
-    "code": ":bento:",
+    "code": "🍱",
     "description": "Adding or updating assets.",
     "name": "assets"
   },
   {
     "emoji": "👌",
-    "code": ":ok_hand:",
+    "code": "👌",
     "description": "Updating code due to code review changes.",
     "name": "review"
   },
   {
-    "emoji": "♿️",
-    "code": ":wheelchair:",
-    "description": "Improving accessibility.",
-    "name": "access"
-  },
-  {
     "emoji": "💡",
-    "code": ":bulb:",
+    "code": "💡",
     "description": "Documenting source code.",
     "name": "docs-code"
   },
   {
     "emoji": "🍻",
-    "code": ":beers:",
+    "code": "🍻",
     "description": "Writing code drunkenly.",
     "name": "beer"
   },
   {
     "emoji": "💬",
-    "code": ":speech_balloon:",
+    "code": "💬",
     "description": "Updating text and literals.",
     "name": "texts"
   },
   {
-    "emoji": "🗃",
-    "code": ":card_file_box:",
-    "description": "Performing database related changes.",
-    "name": "db"
-  },
-  {
-    "emoji": "🔊",
-    "code": ":loud_sound:",
-    "description": "Adding logs.",
-    "name": "log-add"
-  },
-  {
-    "emoji": "🔇",
-    "code": ":mute:",
-    "description": "Removing logs.",
-    "name": "log-rm"
-  },
-  {
-    "emoji": "👥",
-    "code": ":busts_in_silhouette:",
-    "description": "Add contributor(s).",
-    "name": "contrib-add"
-  },
-  {
     "emoji": "🚸",
-    "code": ":children_crossing:",
+    "code": "🚸",
     "description": "Improving user experience / usability.",
     "name": "ux"
-  },
-  {
-    "emoji": "🏗",
-    "entity": "&#1f3d7;",
-    "code": ":building_construction:",
-    "description": "Making architectural changes.",
-    "name": "building-construction"
-  },
-  {
-    "emoji": "📱",
-    "entity": "&#128241;",
-    "code": ":iphone:",
-    "description": "Working on responsive design.",
-    "name": "iphone"
-  },
-  {
-    "emoji": "🤡",
-    "entity": "&#129313;",
-    "code": ":clown_face:",
-    "description": "Mocking things.",
-    "name": "clown-face"
-  },
-  {
-    "emoji": "🥚",
-    "entity": "&#129370;",
-    "code": ":egg:",
-    "description": "Adding an easter egg.",
-    "name": "egg"
-  },
-  {
-    "emoji": "🙈",
-    "entity": "&#8bdfe7;",
-    "code": ":see_no_evil:",
-    "description": "Adding or updating a .gitignore file",
-    "name": "see-no-evil"
-  },
-  {
-    "emoji": "📸",
-    "entity": "&#128248;",
-    "code": ":camera_flash:",
-    "description": "Adding or updating snapshots",
-    "name": "camera-flash"
   }
 ]
