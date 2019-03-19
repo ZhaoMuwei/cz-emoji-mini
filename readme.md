@@ -1,10 +1,13 @@
-# cz-emoji
+# cz-emoji-mini
 
 > Commitizen adapter formatting commit messages using emojis.
 
-[![Build Status](https://travis-ci.com/ZhaoMuwei/cz-emoji-mini.svg?branch=master)](https://travis-ci.com/ZhaoMuwei/cz-emoji-mini)
+> This is a fork of [cz-emoji], with less emoji options.
 
-**cz-emoji** allows you to easily use emojis in your commits using [commitizen].
+[![Build Status](https://travis-ci.com/ZhaoMuwei/cz-emoji-mini.svg?branch=master)](https://travis-ci.com/ZhaoMuwei/cz-emoji-mini)
+![npm](https://img.shields.io/npm/v/cz-emoji-mini.svg)
+
+**cz-emoji-mini** allows you to easily use emojis in your commits using [commitizen].
 
 ```sh
 ? Select the type of change you are committing: (Use arrow keys)
@@ -18,10 +21,10 @@
 ## Install
 
 ```bash
-npm install --global cz-emoji
+npm install --global cz-emoji-mini
 
 # set as default adapter for your projects
-echo '{ "path": "cz-emoji" }' > ~/.czrc
+echo '{ "path": "cz-emoji-mini" }' > ~/.czrc
 ```
 
 ## Usage
@@ -32,14 +35,14 @@ $ git cz
 
 ## Customize
 
-By default `cz-emoji` comes preconfigured with the [Gitmoji](https://gitmoji.carloscuesta.me/) types.
+By default `cz-emoji-mini` comes preconfigured with the [Gitmoji](https://gitmoji.carloscuesta.me/) types.
 
 But you can customize things on a project basis by adding a configuration section in your `package.json`:
 
 ```json
 {
   "config": {
-    "cz-emoji": {}
+    "cz-emoji-mini": {}
   }
 }
 ```
@@ -50,7 +53,7 @@ An [Inquirer.js] choices array:
 ```json
 {
   "config": {
-    "cz-emoji": {
+    "cz-emoji-mini": {
       "types": [
         {
           "emoji": "🌟",
@@ -72,7 +75,7 @@ An [Inquirer.js] choices array:
 ```json
 {
   "config": {
-    "cz-emoji": {
+    "cz-emoji-mini": {
       "scopes": [
         "home",
         "accounts",
@@ -82,10 +85,6 @@ An [Inquirer.js] choices array:
   }
 }
 ```
-
-## Examples
-
- - https://github.com/Falieson/TRAM
 
 ## Commitlint
 
@@ -118,8 +117,10 @@ module.exports = {
 
 ## License
 
+MIT © ZhaoMuwei <zhaomuwei@gmail.com>
+
 MIT © [Nicolas Gryman](http://ngryman.sh)
 
-
+[cz-emoji]: https://github.com/ngryman/cz-emoji
 [commitizen]: https://github.com/commitizen/cz-cli
 [Inquirer.js]: https://github.com/SBoudrias/Inquirer.js/
