@@ -1,6 +1,6 @@
 {
   "name": "cz-emoji-mini",
-  "version": "1.0.0-beta0",
+  "version": "1.0.0-beta1",
   "description": "Commitizen adapter formatting commit messages using emojis(mini version).",
   "author": "ZhaoMuwei <zhaomuwei@gmail.com>",
   "license": "MIT",
