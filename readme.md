@@ -114,12 +114,15 @@ module.exports = {
 };
 ```
 
+## Roadmap
+[Check this](https://github.com/ZhaoMuwei/cz-emoji-mini/projects)
+
 
 ## License
 
 MIT © ZhaoMuwei <zhaomuwei@gmail.com>
 
-MIT © [Nicolas Gryman](http://ngryman.sh)
+(original repo) MIT © [Nicolas Gryman](http://ngryman.sh)
 
 [cz-emoji]: https://github.com/ngryman/cz-emoji
 [commitizen]: https://github.com/commitizen/cz-cli
